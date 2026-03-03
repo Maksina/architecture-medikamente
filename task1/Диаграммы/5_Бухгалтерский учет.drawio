@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.0">
+  <diagram name="Страница-1" id="2CBKh68oDyEPyf29ZSjZ">
+    <mxGraphModel dx="984" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-iSpQ7CkimrLbS6-xkuB-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="150" width="660" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="WvucgGo5P-EpBnJ1sYfv-3" edge="1" parent="1" source="WvucgGo5P-EpBnJ1sYfv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WvucgGo5P-EpBnJ1sYfv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WvucgGo5P-EpBnJ1sYfv-4" connectable="0" parent="WvucgGo5P-EpBnJ1sYfv-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Платежи, зараплата,&lt;div&gt;реквизиты и данные сотрудников,&lt;/div&gt;&lt;div&gt;реквизиты и данные поставщиков&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.26" y="-3" as="geometry">
+            <mxPoint x="44" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WvucgGo5P-EpBnJ1sYfv-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Бухгалтер" vertex="1">
+          <mxGeometry height="60" width="30" x="40" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="chM-Swti3kCVW5aozT2F-3" edge="1" parent="1" source="WvucgGo5P-EpBnJ1sYfv-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" target="chM-Swti3kCVW5aozT2F-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WvucgGo5P-EpBnJ1sYfv-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="1C Бухгалтерия предприятия" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="chM-Swti3kCVW5aozT2F-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="1C Торговля и склад" vertex="1">
+          <mxGeometry height="60" width="150" x="500" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="chM-Swti3kCVW5aozT2F-6" edge="1" parent="1" source="chM-Swti3kCVW5aozT2F-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="WvucgGo5P-EpBnJ1sYfv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="chM-Swti3kCVW5aozT2F-7" connectable="0" parent="chM-Swti3kCVW5aozT2F-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Информация о принятии&lt;div&gt;денежных средств&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0533" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="chM-Swti3kCVW5aozT2F-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="ККМ" vertex="1">
+          <mxGeometry height="60" width="150" x="500" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="w47UZ3AqDsLjoZzIjQhH-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" value="PII/FINANCIAL&lt;div&gt;RBAC&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="150" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="w47UZ3AqDsLjoZzIjQhH-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" value="&lt;div&gt;Минимизация данных&lt;/div&gt;" vertex="1">
+          <mxGeometry height="10" width="90" x="430" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="w47UZ3AqDsLjoZzIjQhH-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" value="&lt;div&gt;Минимизация данных&lt;/div&gt;" vertex="1">
+          <mxGeometry height="10" width="90" x="369" y="480" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

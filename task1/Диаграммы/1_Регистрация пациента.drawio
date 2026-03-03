@@ -1,0 +1,71 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.0">
+  <diagram name="Страница-1" id="Y-YDmfNMALhcr7hN0E7L">
+    <mxGraphModel dx="1008" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="puNVtrbl75EOGfrRRcrS-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="240" width="530" x="40" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="puNVtrbl75EOGfrRRcrS-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="220" width="160" x="400" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="puNVtrbl75EOGfrRRcrS-3" edge="1" parent="1" source="puNVtrbl75EOGfrRRcrS-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="puNVtrbl75EOGfrRRcrS-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="puNVtrbl75EOGfrRRcrS-4" connectable="0" parent="puNVtrbl75EOGfrRRcrS-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="ПДн&lt;div&gt;Документы&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2546" y="2" as="geometry">
+            <mxPoint x="12" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="puNVtrbl75EOGfrRRcrS-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Пациент" vertex="1">
+          <mxGeometry height="60" width="30" x="60" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="puNVtrbl75EOGfrRRcrS-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Администратор&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="220" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="puNVtrbl75EOGfrRRcrS-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="Pacients&lt;div&gt;[папка]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="160" x="400" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="puNVtrbl75EOGfrRRcrS-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="Файлы пациента в разных форматах" vertex="1">
+          <mxGeometry height="60" width="120" x="420" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="puNVtrbl75EOGfrRRcrS-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="Excel-файл со списком пациентов" vertex="1">
+          <mxGeometry height="60" width="120" x="420" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="puNVtrbl75EOGfrRRcrS-15" edge="1" parent="1" source="puNVtrbl75EOGfrRRcrS-2" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="puNVtrbl75EOGfrRRcrS-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="510" y="620" as="sourcePoint" />
+            <mxPoint x="560" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="puNVtrbl75EOGfrRRcrS-16" connectable="0" parent="puNVtrbl75EOGfrRRcrS-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Документы&lt;div&gt;содержащие ПДн&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2375" y="1" as="geometry">
+            <mxPoint x="25" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="puNVtrbl75EOGfrRRcrS-20" edge="1" parent="1" source="puNVtrbl75EOGfrRRcrS-2" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="puNVtrbl75EOGfrRRcrS-13" value="ПДн">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="510" y="620" as="sourcePoint" />
+            <mxPoint x="560" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E97QgwZQGzJbrG9u367s-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fillColor=#fff2cc;strokeColor=#d6b656;" value="TLS, Минимизация данных" vertex="1">
+          <mxGeometry height="30" width="70" x="120" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="E97QgwZQGzJbrG9u367s-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fillColor=#fff2cc;strokeColor=#d6b656;" value="PII&lt;div&gt;RBAC&lt;/div&gt;&lt;div&gt;Аудит записи&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="70" x="300" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="E97QgwZQGzJbrG9u367s-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fillColor=#fff2cc;strokeColor=#d6b656;" value="PII/MEDICAL&lt;div&gt;RBAC&lt;/div&gt;&lt;div&gt;Аудит доступа&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="70" x="300" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="E97QgwZQGzJbrG9u367s-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fillColor=#fff2cc;strokeColor=#d6b656;" value="шифрование, аудит доступов" vertex="1">
+          <mxGeometry height="10" width="120" x="420" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="E97QgwZQGzJbrG9u367s-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fillColor=#fff2cc;strokeColor=#d6b656;" value="шифрование, аудит доступов" vertex="1">
+          <mxGeometry height="10" width="120" x="420" y="480" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
